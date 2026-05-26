@@ -1,0 +1,4 @@
+{
+  "name": "daily-brief-hermes",
+  "postCreateCommand": "pip install hermes-agent && npm install"
+}
