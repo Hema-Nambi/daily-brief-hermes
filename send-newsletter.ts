@@ -23,7 +23,15 @@ async function main() {
   }
 
   const fullPath = path.resolve(filePath);
+  console.log("Reading file from:", fullPath);  // add this line
+
+  if (!fs.existsSync(fullPath)) {
+    console.error("File not found:", fullPath);
+    process.exit(1);
+  }
+
   const body = fs.readFileSync(fullPath, "utf8");
+  console.log("File content length:", body.length, "chars");
 
   const transporter = nodemailer.createTransport({
   host: SMTP_HOST,
