@@ -1,4 +1,5 @@
 import nodemailer from "nodemailer";
+import "dotenv/config";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -8,8 +9,9 @@ const SMTP_USER = process.env.SMTP_USER!;
 const SMTP_PASS = process.env.SMTP_PASS!;
 
 const RECIPIENTS = [
-  "person1@example.com",
-  "person2@example.com",
+  "hemnam24@gmail.com",
+  "arvind.mohanraj@gmail.com",
+  "shreepriyaraj@gmail.com",
 ];
 
 async function main() {
@@ -23,14 +25,14 @@ async function main() {
   const body = fs.readFileSync(fullPath, "utf8");
 
   const transporter = nodemailer.createTransport({
-    host: SMTP_HOST,
-    port: SMTP_PORT,
-    secure: false,
-    auth: {
-      user: SMTP_USER,
-      pass: SMTP_PASS,
-    },
-  });
+  host: SMTP_HOST,
+  port: 465,        // changed from 587
+  secure: true,     // changed from false — required for port 465
+  auth: {
+    user: SMTP_USER,
+    pass: SMTP_PASS,
+  },
+});
 
   await transporter.sendMail({
     from: SMTP_USER,
