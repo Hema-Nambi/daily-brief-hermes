@@ -26,6 +26,42 @@ Create a concise daily email briefing of news and wellness.
    - Health & Wellness
 5. Keep language simple and friendly, total length suitable for a quick morning read.
 
+Format the newsletter exactly like this structure:
+
+## 🍁 Canada News
+- **Headline 1**: 2-3 sentence summary.
+- **Headline 2**: 2-3 sentence summary.
+- **Headline 3**: 2-3 sentence summary.
+- **Headline 4**: 2-3 sentence summary.
+- **Headline 5**: 2-3 sentence summary.
+
+## 🌍 World News
+- **Headline 1**: 2-3 sentence summary.
+- **Headline 2**: 2-3 sentence summary.
+- **Headline 3**: 2-3 sentence summary.
+- **Headline 4**: 2-3 sentence summary.
+- **Headline 5**: 2-3 sentence summary.
+
+## 🇮🇳 India News
+- **Headline 1**: 2-3 sentence summary.
+- **Headline 2**: 2-3 sentence summary.
+- **Headline 3**: 2-3 sentence summary.
+- **Headline 4**: 2-3 sentence summary.
+- **Headline 5**: 2-3 sentence summary.
+
+## 🤖 AI & Tech
+- **Headline 1**: 2-3 sentence summary.
+- **Headline 2**: 2-3 sentence summary.
+- **Headline 3**: 2-3 sentence summary.
+- **Headline 4**: 2-3 sentence summary.
+- **Headline 5**: 2-3 sentence summary.
+
+## 💡 Motivation
+One short motivational quote with author name.
+
+## 💚 Wellness Tip
+One practical health or wellness tip for today.
+
 ## Notes
 - Prefer recent news from the last 24 hours.
 - Avoid repeating the same headline twice.

@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Hema-Nambi/daily-brief-hermes#readme",
   "dependencies": {
     "dotenv": "^17.4.2",
+    "marked": "^18.0.4",
     "nodemailer": "^8.0.9"
   },
   "devDependencies": {
