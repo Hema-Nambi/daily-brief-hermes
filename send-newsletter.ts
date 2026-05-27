@@ -1,8 +1,13 @@
 import nodemailer from "nodemailer";
 import "dotenv/config";
 
-import fs from "node:fs";
+import dotenv from "dotenv";
+import os from "node:os";
 import path from "node:path";
+
+dotenv.config({ path: path.join(os.homedir(), ".hermes", ".env") });
+
+import fs from "node:fs";
 
 const SMTP_HOST = process.env.SMTP_HOST!;
 const SMTP_PORT = Number(process.env.SMTP_PORT ?? "587");
