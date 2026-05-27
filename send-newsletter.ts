@@ -13,9 +13,9 @@ const SMTP_USER = process.env.SMTP_USER!;
 const SMTP_PASS = process.env.SMTP_PASS!;
 
 const RECIPIENTS = [
-  "example1@gmail.com",
-  "example2@gmail.com",
-  "example3@gmail.com",
+  "hemnam24@gmail.com",
+  "arvind.mohanraj@gmail.com",
+  "shreepriyaraj@gmail.com",
 ];
 
 async function main() {
